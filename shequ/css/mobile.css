@@ -1,0 +1,90 @@
+html{font-size:100px}
+body {
+    background-size: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    color: #3c3c3c;
+    font-family: PingFangSC,Helvetica,"Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei",微软雅黑,STHeiti,"WenQuanYi Micro Hei",sans-serif;
+    position: relative;
+}
+
+.mobile-main{
+	width:100%;
+	height:100vh;
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+	background-color:#fff
+}
+
+.mobile-main .m-header{
+	width:100%;
+	height:0.44rem;
+	-webkit-box-pack:start;
+	-ms-flex-pack:start;
+	justify-content:flex-start;
+	padding-left:0.34rem;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center;
+	position:static;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box
+}
+.mobile-main .m-header img{width:1.08rem;height:0.165rem}
+.mobile-main .main-page-one{position:relative;width:100%}
+.mobile-main .main-page-one img{width:2.065rem;height:2.085rem}
+.mobile-main .main-page-one .page-one-r-main{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;top:0.385rem;right:0.26rem;position:absolute}
+.mobile-main .main-page-one .page-one-r-main .page-one-r-title{font-size:0.17rem;padding-bottom:0.08rem;font-weight:500;line-height:1}
+.mobile-main .main-page-one .page-one-r-main .page-one-r-desc{font-size:0.12rem;padding-bottom:0.25rem;font-weight:500;line-height:1}
+.mobile-main .main-page-one .page-one-r-main .p-o-img-main{width:1.5rem;height:0.6rem;background-color:#F5F8FA;border-radius:0.01rem;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.mobile-main .main-page-one .page-one-r-main .p-o-img-main>img{width:0.535rem;height:0.535rem;margin-right:0.04rem}
+.mobile-main .main-page-one .page-one-r-main .p-o-img-main .p-o-img-main-icon-t-top{font-size:0.1rem;padding-bottom:0.075rem;font-weight:500;line-height:1}
+.mobile-main .main-page-one .page-one-r-main .p-o-img-main .p-o-img-main-icon-t-bottom{font-size:0.1rem;line-height:1}
+.mobile-main .main-page-two{padding-top:0.25rem;text-align:center}
+.mobile-main .main-page-two .main-page-two-title{margin-bottom:0.2rem}
+.mobile-main .main-page-two .main-page-two-title .main-page-t-nav-title{line-height:1;font-size:0.14rem;color:#010101}
+.mobile-main .main-page-two .main-page-two-title .main-page-t-nav-title-e{line-height:1;font-size:0.1rem;padding-top:0.08rem;color:#010101}
+.mobile-main .main-page-two-box{
+	width:3rem;
+	height: 1.3rem;
+	margin:auto;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap
+}
+.mobile-main .main-page-two-box .main-page-two-item{width:1.5rem;height:1.2rem;background-color:#F5F8FA}
+.mobile-main .main-page-two-box .main-page-two-item>img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
+.mobile-main .main-page-two-box .main-page-two-item .main-page-two-item-title{color:#000000;font-size:0.12rem;text-align:left;font-weight:500;line-height:1;padding:0.295rem  0 0.06rem 0.125rem}
+.mobile-main .main-page-two-box .main-page-two-item .main-page-two-item-desc{color:#000000;font-size:0.1rem;text-align:left;padding-left:0.125rem;line-height:0.17rem;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;overflow:hidden}
+.mobile-main .main-page-three{padding-top:0.4rem;margin:auto;text-align:center}
+.mobile-main .main-page-three .main-page-t-nav-title{font-size:0.14rem;color:#010101;padding-bottom:0.08rem;line-height:1;font-weight:500}
+.mobile-main .main-page-three .main-page-t-nav-desc{line-height:1;font-size:0.1rem;padding-bottom:0.21rem}
+
+.mobile-main .main-page-three .main-page-t-box{
+	width:3.0rem;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	padding-bottom:0.435rem;
+	margin:auto
+}
+.mobile-main .main-page-three .main-page-t-box .main-page-t-item{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	width:1.35rem;
+	padding:0.2rem 0.12rem 0.15rem 0.12rem;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	margin-bottom:0.165rem;
+	background-color:#F5F8FA;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-ms-flex-direction:column;
+	flex-direction:column;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	align-items:center
+}
+.mobile-main .main-page-three .main-page-t-box .main-page-t-item .main-page-t-title{display:block;padding-top:0.1rem;font-weight:500;font-size:0.12rem;line-height:1;color:#000000;padding-bottom:0.1rem}.mobile-main .main-page-three .main-page-t-box .main-page-t-item .main-page-t-desc{display:block;font-size:0.1rem;color:#333333}.mobile-main .main-page-three .main-page-t-box .main-page-t-item>img{width:0.35rem;height:0.35rem}.mobile-main .main-page-three .main-page-t-box .main-page-t-item-pr{margin-right:0.3rem}.mobile-main .main-page-footer{width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 0.15rem;padding-top:0.11rem;background-color:#F5F8FA;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.mobile-main .main-page-footer .main-footer-l .main-f-title{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;padding-bottom:0.06rem;margin-bottom:0.075rem;font-size:0.1rem;color:#000000;line-height:1;border-bottom:0.02rem solid #FF8930}.mobile-main .main-page-footer .main-footer-l .main-f-company-name{font-size:0.12rem;color:#000000;font-weight:500;line-height:1;padding-bottom:0.16rem}.mobile-main .main-page-footer .main-footer-l .main-l-worktime,.mobile-main .main-page-footer .main-footer-l .main-l-tel{font-size:0.09rem;color:#000000;line-height:1;padding-bottom:0.06rem}.mobile-main .main-page-footer .main-footer-r{vertical-align:top;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.mobile-main .main-page-footer .main-footer-r>img{width:0.6rem;height:0.6rem;margin-bottom:0.08rem;vertical-align:top}.mobile-main .main-page-footer .main-footer-r .footer-code-name{color:#000000;line-height:1;font-size:0.09rem}.sys-flex{display:-webkit-box;display:-ms-flexbox;display:flex}.pc-main,#fp-nav{display:none}.m-block{display:block}
+
+
+
